@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.psd img{
+	width: 100%;
+	height: 700px;
+}
+.psd-background{
+	position: relative;
+}
+.text{
+	position: absolute;
+	top: 0;
+}
+.text{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin-top: 60px;
+}
+.text h1{
+	margin-left: 50px;
+}
+.text h1{
+
+	color: white;
+}
+.list{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+
+}
+ul li{
+	list-style: none;
+}
+li a{
+list-style: none;
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+li a:hover{
+	color: red;
+	padding-bottom: 20px;
+	border-bottom: solid 2px red;
+}
+.mid-text{
+	position: absolute;
+	width: 50%;
+	top: 196px;
+	/* left: 40%; */
+	right: 26%;
+	padding-left: 120px;
+	padding-right: 120px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+}
+.mid-text h4{
+	font-size: 18px;
+	color: white;
+}
+.mid-text h1{
+	font-size: 50px;
+	color: white;
+	letter-spacing: 8px;
+}
+.mid-text p{
+	font-size: 14px;
+	color: white;
+	line-height: 28px;
+}
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.button{
+	width: 100%;
+	height: 100%;
+}
+button{
+	width: 200px;
+	height: 50px;
+	background-color:transparent;
+	border: 2px solid rgb(255, 255, 255);
+	color: white;
+}
+button:hover{
+background-color: red;
+color: white;
+border: none;
+}
+.circle{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgb(235, 236, 236);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -163px;
+	position: absolute;
+}
+.item1{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	text-align: center;
+}
+.item1 p{
+	text-align: center;
+
+}
+.item2{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	text-align: center;
+}
+.item3{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	text-align: center;
+}
+.item4{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	text-align: center;
+}
+.icon{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+.icon{
+	display: flex;
+	flex-flow: row wrap;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.item1 h1{
+	padding-top: 10px;
+}
+.item2 h1{
+	padding-top: 10px;
+}
+.item3 h1{
+	padding-top: 10px;
+}
+.item4 h1{
+	padding-top: 10px;
+}
+.item2:hover{
+	color: red;
+}
+.item3:hover{
+	color: red;
+}
+.item1:hover{
+	color: red;
+}
+.item4:hover{
+	color: red;
+}
